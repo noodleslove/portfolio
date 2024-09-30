@@ -217,7 +217,75 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://csesucsd.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nutripal.jpg"),
+      projectName: "NutriPal",
+      projectDesc:
+        "NutriPal is a user-friendly diet information website that aims to simplify the daily diet logging process.",
+      footerLink: [
+        {name: "Visit Website", url: "https://nutripal-ucsd.herokuapp.com/"}
+      ]
+    },
+    {
+      image: require("./assets/images/covid.jpg"),
+      projectName: "COVID-19 Analysis",
+      projectDesc:
+        "Analysis on impact of the COVID-19 pandemic on global warming",
+      footerLink: [
+        {
+          name: "Visit Report",
+          url: "https://drive.google.com/file/d/1Vt1BsArRcmB9PU4JPViPP8tBLWDt1QkI/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/lfm.jpg"),
+      projectName: "LFM Recommender System",
+      projectDesc:
+        "A Yelp Recommender System using Latent Factor Collaborative Filtering to provide personalized business recommendations through a web application, enhancing user experience and engagement.",
+      footerLink: [
+        {
+          name: "Visit Report",
+          url: "https://drive.google.com/file/d/1cbem5KYzXJhihUirzvo_5JAMdW6Dw8LF/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/stock-2.jpg"),
+      projectName: "House of Representatives Analysis II",
+      projectDesc:
+        "This project analyzes stock trades made by members of the 116th U.S. House of Representatives, combining it with information on their political affiliation to evaluate missingness associations in the dataset.",
+      footerLink: [
+        {
+          name: "Visit Report",
+          url: "https://drive.google.com/file/d/10AgiJjXxIM7ZC-H-ScfD9iZHK3lsnAdt/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/stock.jpg"),
+      projectName: "House of Representatives Analysis I",
+      projectDesc:
+        "This project analyzes stock trades made by members of the 116th U.S. House of Representatives, combining it with information on their political affiliation to evaluate missingness associations in the dataset.",
+      footerLink: [
+        {
+          name: "Visit Report",
+          url: "https://drive.google.com/file/d/1M3fHZAFZXAAp5A9QwROB91KcIcK2SG03/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/blockchain.jpg"),
+      projectName: "Blockchain in Go",
+      projectDesc: `A simplified blockchain implementation in Golang`,
+      footerLink: [
+        {
+          name: "Visit Code",
+          url: "https://github.com/noodleslove/blockchain-go"
         }
       ]
     }
@@ -248,12 +316,13 @@ const achievementSection = {
         {
           name: "Final Pitch",
           url: "https://docs.google.com/presentation/d/1gTUgpzRujxQxFXZn1tmR9YmpH0cofRFG/edit?usp=sharing&ouid=117471858530228216140&rtpof=true&sd=true"
-        },
+        }
       ]
     },
     {
       title: "IBM Data Engineering Professional Certificate",
-      subtitle: "Earned by completing the IBM Data Engineering Professional Certificate from Coursera",
+      subtitle:
+        "Earned by completing the IBM Data Engineering Professional Certificate from Coursera",
       image: require("./assets/images/ibmLogo.png"),
       imageAlt: "IBM Logo",
       footerLink: [
@@ -263,15 +332,13 @@ const achievementSection = {
         }
       ]
     },
-
     {
       title: "Microsoft Certified: Azure Data Engineer Associate",
-      subtitle: "Earned by passing the DP-203: Data Engineering on Microsoft Azure exam",
+      subtitle:
+        "Earned by passing the DP-203: Data Engineering on Microsoft Azure exam",
       image: require("./assets/images/microsoftLogo.png"),
       imageAlt: "Microsoft Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-      ]
+      footerLink: [{name: "Certification", url: ""}]
     }
   ],
   display: true // Set false to hide this section, defaults to true
